@@ -1,0 +1,82 @@
+[
+    {
+        "bugId": 1001,
+        "reportedDate": "2026-11-17 22:10",
+        "module": "Payment",
+        "description": "Users report HTTP 504 Gateway Timeout when attempting credit card and UPI transactions during flash sales.",
+        "updatedDate": "2026-11-17 22:10",
+        "title": "Payment gateway timeout during peak checkout hours",
+        "priority": "Critical",
+        "status": "Open"
+    },
+    {
+        "bugId": 1002,
+        "reportedDate": "2026-11-17 22:10",
+        "module": "Shopping Cart",
+        "description": "Incrementing product quantity in cart does not persist in session when user reloads the checkout page.",
+        "updatedDate": "2026-11-17 22:10",
+        "title": "Cart item quantity reverts to 1 on browser refresh",
+        "priority": "High",
+        "status": "In Progress"
+    },
+    {
+        "bugId": 1003,
+        "reportedDate": "2026-11-17 22:10",
+        "module": "Product Search",
+        "description": "Keywords containing apostrophes or symbols like 'Men's Watch' or 'T-Shirt & Cap' fail to return relevant catalog items.",
+        "updatedDate": "2026-11-17 22:10",
+        "title": "Search query with special characters returns zero results",
+        "priority": "Medium",
+        "status": "Open"
+    },
+    {
+        "bugId": 1004,
+        "reportedDate": "2026-11-17 22:10",
+        "module": "Login",
+        "description": "Clicking 'Sign in with Google' on small screen viewports throws an unhandled popup block exception.",
+        "updatedDate": "2026-11-17 22:10",
+        "title": "Google SSO popup fails to open in mobile view",
+        "priority": "Medium",
+        "status": "Resolved"
+    },
+    {
+        "bugId": 1005,
+        "reportedDate": "2026-11-17 22:10",
+        "module": "Order Tracking",
+        "description": "When estimated delivery date exceeds standard 7-day transit, the ETA badge shows '-2 days remaining'.",
+        "updatedDate": "2026-11-17 22:10",
+        "title": "Delivery ETA calculation displays negative days",
+        "priority": "Low",
+        "status": "Resolved"
+    },
+    {
+        "bugId": 1006,
+        "reportedDate": "2026-11-17 22:31",
+        "module": "Login",
+        "description": "user cannot login to the shopping website",
+        "updatedDate": "2026-11-17 22:31",
+        "title": "login button not working",
+        "priority": "High",
+        "status": "Open"
+    },
+    {
+        "bugId": 1007,
+        "reportedDate": "2026-11-18 09:43",
+        "module": "Login",
+        "description": "user is unable to get login to shopping page",
+        "updatedDate": "2026-11-18 09:43",
+        "title": "user cannot able to get login",
+        "priority": "High",
+        "status": "Open"
+    },
+    {
+        "bugId": 1008,
+        "reportedDate": "2026-11-18 10:15",
+        "module": "Login",
+        "description": "user is unable to get login",
+        "updatedDate": "2026-11-18 10:15",
+        "title": "user is unable to get login",
+        "priority": "High",
+        "status": "Open"
+    }
+]
